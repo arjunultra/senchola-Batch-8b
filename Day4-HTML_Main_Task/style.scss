@@ -16,7 +16,8 @@ body {
     margin-top: 1.5em;
 }
 .ham {
-    margin: 0 1.5em 
+    margin: 0 1.5em;
+    margin-bottom: 0.5em; 
 }
 .search-container {
     margin-right: auto;
@@ -61,14 +62,35 @@ button.mic {
 }
 button.user-account {
     border-radius: 45%;
-    padding: 0.7em;
+    
 }
 .last-div {
     display: flex;
     justify-content: space-evenly;
     margin-right: auto;
-}
-.new-vid {
-    width: 3em;
-    height: 3em;
+    align-items: center;
+    margin-top: 1.5em;
+    gap: 0.9em;
+    svg.flex-child.new-vid {
+        width: 4em;
+        height: 4em;
+        background-color: #131418;
+    }
+    svg.flex-child.notify {
+        width: 4em;
+        height: 4em;
+        background-color: #131418;
+    }
+    svg.flex-child {
+        display: block;
+        width: 20px;
+        height: 20px;
+        
+    }
+    button.flex-child.user-account {
+        width: 4em;
+        height: 4em;
+        border-radius: 50%;
+        
+    }
 }
