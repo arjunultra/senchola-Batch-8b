@@ -4,14 +4,71 @@
     box-sizing: border-box;
 }
 body {
-    
+    background-color: #131418;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .logo {
     width: 15em;
     margin-top: 1.5em;
 }
 .ham {
-    margin: 0 1.5em
-
+    margin: 0 1.5em 
+}
+.search-container {
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+.search {
+    margin-top: 2em;
+    margin-right: auto;
+    margin-left: 10em;
+    width: 40em;
+    height: 3em;
+    border-radius: 25px;
+    outline: none;
+    border: 1px solid ;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0%;
     
+    &::placeholder {
+        padding: 2em;
+    }
+}
+button[type="submit"] {
+    width: 7em;
+    height: 3em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    margin-top: 2em;
+    border: 1px solid;
+    border-left: 0;
+    cursor: pointer;
+
+}
+button.mic {
+    margin-left: 1em;
+    margin-top: 2em;
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    color: black;
+}
+button.user-account {
+    border-radius: 45%;
+    padding: 0.7em;
+}
+.last-div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: auto;
+}
+.new-vid {
+    width: 3em;
+    height: 3em;
 }
