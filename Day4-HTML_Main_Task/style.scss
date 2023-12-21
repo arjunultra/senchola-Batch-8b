@@ -107,8 +107,8 @@ main {
     button.user-account {
         width: 4em;
         height: 4em;
-        // margin-left: 14.1em;
-        // margin-top: 2em;
+        border: none;
+        outline: none;
     }
 }
 section.subscribe {
@@ -132,9 +132,18 @@ section.subscribe {
                 border-radius: 30px;
                 padding: 15px 30px;
                 font-weight: bolder;
+                border: none;
+                outline: none;
                 &:hover {
                     background-color: #ff0000;
                     color: white;
+                    outline: none;
+                    border: none;
+                    transform: translateY(15%);
+                }
+                &:active {
+                    background-color: white;
+                    color: #ff0000;
                 }
             }
         }

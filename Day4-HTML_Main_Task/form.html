@@ -4,6 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Subscription Form</title>
+    <style>
+        .submit-btn {
+            display: block;
+            width: 10em;
+            margin: 1em auto;
+            padding: 1em 1.5em;
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 2em;
+        }
+        input,textarea {
+            width: 25em;
+            height: 2em;
+        }
+        input[type="radio"] {
+            width: unset;
+            height: unset;
+        }
+        
+    </style>
 </head>
 <body>
     <h1>Subscriber Information</h1>
@@ -25,7 +46,7 @@
                 <textarea name="address" id="address" cols="20" rows="1"></textarea>
             </label>
         </fieldset>
-        <a href="./index.html"><button>Submit</button></a>
     </form>
+    <a href="index.html"><button class="submit-btn">Submit</button></a>
 </body>
 </html>
