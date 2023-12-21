@@ -115,7 +115,8 @@ section.subscribe {
     display: flex;
     .flex-container {
         display: flex;
-        width: 30em;
+        gap:0 40px;
+        width: 75%;
         align-items: center;
         justify-content: space-evenly;
         margin-left: 10em;
@@ -145,6 +146,18 @@ section.subscribe {
                     background-color: white;
                     color: #ff0000;
                 }
+            }
+        }
+        .right-btn {
+            display: flex;
+            gap: 20px;
+            margin-left: auto;
+
+            button {
+                padding: 1em 2em;
+                border-radius: 2em;
+                outline: none;
+                border: none;
             }
         }
     }
