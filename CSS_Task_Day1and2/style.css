@@ -1,0 +1,51 @@
+/* Global Reset - This is called as comments in CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    border: 3px solid black;
+    border-radius: 1em;
+    margin: 3em;
+    padding: 1em 2em;
+    text-shadow: 5px -5px 3px purple;
+    font-family: sans-serif;
+}
+a.link-btn {
+    background-color: cyan;
+    color: magenta;
+    padding: 1em 2em;
+    border-radius: 2em;
+}
+a.link-btn:hover {
+    background-color: yellow;
+    color: black;
+}
+.container {
+    background-color: #f00;
+    height: 8em;
+    width: 8em;
+    position: relative;
+    margin-top: 5em;
+    margin-left: 5em;
+    
+}
+.child-one {
+    background-color: aqua;
+    width: 3em;
+    height: 3em;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    z-index: 2;
+}
+.child-two {
+    background-color: greenyellow;
+    width: 3em;
+    height: 3em;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    z-index: 1;
+}
