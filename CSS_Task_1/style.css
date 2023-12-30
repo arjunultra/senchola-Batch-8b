@@ -33,6 +33,7 @@ a.link-btn:hover {
     position: relative;
     margin-top: 5em;
     margin-left: 5em;
+    display: block;
     
 }
 .child-one {
@@ -94,6 +95,9 @@ p.border {
   /* links */
   a.anchor:link {
     color: #FF0000;
+    position: absolute;
+    bottom: 30%;
+    right: 40%;
   }
   
   /* visited link */

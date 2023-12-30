@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2.rounded {
+    border-radius: 1em;
+    background-color: chartreuse;
+}
+/* CSS border-radius - Specify Each Corner */
+h2.rounded-each {
+    border-radius: 1em 2em 3em 4em;
+    background-color: blueviolet;
+}
+.gradients {
+    background: linear-gradient(45deg, blue, red 90%);
+    width: 5em;
+    height: 5em;
+    padding: 5em;
+    margin-top: 3em;
+}
+.radial-gradients {
+    background-image: radial-gradient(chartreuse, dodgerblue, magenta);
+    width: 5em;
+    height: 5em;
+    padding: 5em;
+    margin-top: 3em;
+}
